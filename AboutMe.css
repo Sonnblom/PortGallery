@@ -1,0 +1,211 @@
+body{
+   padding: 25px;
+}
+
+.headerGrid{   
+   display: flex; 
+   justify-items: center;
+   border-radius: 20px;
+   justify-content: flex-end;
+}
+
+.homeIcon{
+   display: flex; /* Use flexbox to control alignment */
+   align-items: flex-end; /* Vertically center the image */
+   justify-content: flex-end; /* Push contents to the left */
+}
+ 
+ .tonyGrid{   
+    display: grid; 
+    grid-template-rows: 162.5px 162.5px 162.5px 162.5px 162.5px 162.5px 162.5px 162.5px;
+    grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 10% 10% 5% 5% 5% 5% 5% 5% 5% 5%;
+    justify-items: center;
+    border-radius: 20px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+ }
+
+ .footGrid{   
+   display: grid; 
+   grid-template-rows: 150px 150px 150px 150px 150px 150px 300px;
+   grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+   justify-items: center;
+   border-radius: 20px;
+   align-items: center;
+   align-content: center;
+   align-self: center;
+}
+ 
+ .aboutMeHead{   
+    grid-column: 1/19;
+    grid-row: 1/5;
+    z-index: 5;
+ }
+
+ .aboutMeTextBox{  
+   text-align: center;
+   grid-column: 1/19;
+   grid-row: 5/8; /* Span the full width of two columns */
+  align-self: start;
+    width: 700px;
+    z-index: 2;
+ }
+
+ .header{
+color: rgb(44, 44, 44);
+font-size: 70px;
+ }
+ .paragraph{
+   color: rgb(44, 44, 44);
+   padding-bottom: 15px;
+   font-size: 40px;
+    }
+
+ .paragraph2{
+color: rgb(91, 91, 91);
+padding-bottom: 15px;
+font-size: 30px;
+ }
+
+ @font-face {
+   font-family: header;
+   src: url(Assets/FirstPlace.ttf);
+   /* src: url(Assets/Plastic\ Beach.ttf); */
+   /* src: url(Assets/MAROLA__.TTF); */
+   /* src: url(Assets/StartMenu.ttf); */
+ }
+
+ @font-face {
+   font-family: paragraph;
+   src: url(Assets/effortless.ttf);
+   
+ }
+
+/* ROW IS UP AND DOWN & GRID IS LEFT AND RIGHT */
+
+ .gridHIIMG1{
+   grid-row: 1/4;
+   grid-column: 2/4;
+   transform: rotate(-20deg);
+   z-index: 1;
+   height:800px;
+ }
+
+ .gridHIIMG2{
+   grid-row: 6/6;
+   grid-column: 1/4;
+   transform: rotate(-5deg);
+   z-index: 0;
+   height:550px;
+ }
+
+ .gridHIIMG3{
+   grid-row: 2/9;
+   grid-column: 3/7;
+   transform: rotate(9deg);
+   z-index: 0;
+   height:300px;
+ }
+
+ .gridHIIMG4{
+   grid-row: 1/3;
+   grid-column: 3/7;
+   transform: rotate(-10deg);
+   z-index: 1;
+   height:400px;
+ }
+
+ .gridHIIMG5{
+   grid-row: 9/10;
+   grid-column: 4/6;
+   transform: rotate(10deg);
+   z-index: 3;
+   height:700px;
+ }
+
+ .gridHIIMG6{
+   grid-row: 8/10;
+   grid-column: 1/4;
+   transform: rotate(-9deg);
+   z-index: 1;
+   height:400px;
+ }
+
+ .gridHIIMG7{
+  grid-row: 4/10;
+  grid-column: 1/6;
+  transform: rotate(9deg);
+  z-index: 0;
+  height:325px;
+}
+
+.gridHIIMG8{
+  grid-row: 5/10;
+  grid-column: 1/3;
+  transform: rotate(-9deg);
+  z-index: 3;
+  height:200px;
+}
+
+.gridHIIMG9{
+  grid-row: 7/10;
+  grid-column: 3/8;
+  transform: rotate(-9deg);
+  z-index: 1;
+  height:200px;
+}
+
+.gridAlien{
+  grid-row: 1/9;
+   grid-column: 2/7;
+   transform: rotate(9deg);
+   z-index: 0;
+   height:400px;
+}
+
+ .gridLOWIMG1{
+   grid-row: 3/3;
+   grid-column: 4/9;
+   /* transform: rotate(20deg); */
+   height:550px;
+ }
+
+ .gridCallMe{
+  grid-row: 9/9;
+  grid-column: 1/11;
+  /* transform: rotate(20deg); */
+  height:350px;
+}
+
+.SQUARE{
+  grid-column: 8/19;
+  grid-row: 1/8;
+  height: 800px;
+  width: 900px;
+  z-index: 0;
+  background-color: rgb(198, 98, 255);
+  opacity: 0%;
+}
+
+.SQUARE2{
+  grid-column: 9/9;
+  grid-row: 4/8;
+  height: 525px;
+  width: 700px;
+  z-index: 1;
+  background-color: rgb(177, 177, 177);
+  opacity: 0%;
+}
+
+.SQUARE3{
+  grid-column: 8/19;
+  grid-row: 1/8;
+  height: 800px;
+  width: 900px;
+  z-index: 3;
+  background-color: rgb(167, 16, 255);
+  opacity: 0%;
+}
+
+ 
