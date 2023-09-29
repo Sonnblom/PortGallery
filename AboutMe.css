@@ -17,7 +17,7 @@ body{
  
  .tonyGrid{   
     display: grid; 
-    grid-template-rows: 162.5px 162.5px 162.5px 162.5px 162.5px 162.5px 162.5px 162.5px;
+    grid-template-rows: 162.5px 162.5px 162.5px 162.5px /* 162.5px 162.5px 162.5px 162.5px*/; 
     grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 10% 10% 5% 5% 5% 5% 5% 5% 5% 5%;
     justify-items: center;
     border-radius: 20px;
@@ -28,7 +28,7 @@ body{
 
  .footGrid{   
    display: grid; 
-   grid-template-rows: 150px 150px 150px 150px 150px 150px 300px;
+   grid-template-rows: 150px 150px /*150px 150px 150px 150px 300p*/x;
    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
    justify-items: center;
    border-radius: 20px;
@@ -161,13 +161,13 @@ font-size: 30px;
    grid-column: 2/7;
    transform: rotate(9deg);
    z-index: 0;
-   height:400px;
+   height:500px;
 }
 
- .gridLOWIMG1{
+  .gridLOWIMG1{ 
    grid-row: 3/3;
    grid-column: 4/9;
-   /* transform: rotate(20deg); */
+   transform: rotate(20deg); 
    height:550px;
  }
 
